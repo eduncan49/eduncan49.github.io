@@ -1,13 +1,31 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for
+from flask_mail import Mail, Message
 
 app = Flask(__name__)
+
+app.config['MAIL_SERVER']='sandbox.smtp.mailtrap.io'
+app.config['MAIL_PORT'] = 2525
+app.config['MAIL_USERNAME'] = 'bd16cbd7566ff3'
+app.config['MAIL_PASSWORD'] = 'a04938d8bea2d8'
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USE_SSL'] = False
+mail = Mail(app)
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/survey')
+@app.route('/survey', methods=['GET', 'POST'])
 def survey():
+    if request.method == 'POST':
+        name = request.form['name']
+        email = request.form['email']
+        message = request.form['message']
+
+        msg = Message(subject='Survey Response', sender='peter@mailtrap.io', recipients=['paul@mailtrap.io'])
+        msg.body = f"Name: {name}\nEmail: {email}\nMessage: {message}"
+        mail.send(msg)
+        return redirect(url_for('index'))
     return render_template('survey.html')
 
 @app.route('/about')

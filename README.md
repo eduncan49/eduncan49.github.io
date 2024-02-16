@@ -2,6 +2,7 @@
 
 Installation Steps:
 - pip install flask
+- pip install Flask-Mail
 
 Start the frontend:
 - python app.py
