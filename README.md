@@ -4,5 +4,5 @@ Installation Steps:
 - pip install flask
 
 Start the frontend:
-- python login.py
+- python app.py
 - go to http://127.0.0.1:5000 
