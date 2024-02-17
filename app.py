@@ -1,15 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_mail import Mail, Message
-
-app = Flask(__name__)
-
-app.config['MAIL_SERVER']='sandbox.smtp.mailtrap.io'
-app.config['MAIL_PORT'] = 2525
-app.config['MAIL_USERNAME'] = 'bd16cbd7566ff3'
-app.config['MAIL_PASSWORD'] = 'a04938d8bea2d8'
-app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USE_SSL'] = False
-mail = Mail(app)
+from config import app, mail
 
 @app.route('/')
 def index():
@@ -22,7 +13,7 @@ def survey():
         email = request.form['email']
         message = request.form['message']
 
-        msg = Message(subject='Survey Response', sender='peter@mailtrap.io', recipients=['paul@mailtrap.io'])
+        msg = Message(subject='Survey Response', sender='peter@mailtrap.io', recipients=['brianfarrell800@gmail.com'])
         msg.body = f"Name: {name}\nEmail: {email}\nMessage: {message}"
         mail.send(msg)
         return redirect(url_for('index'))
