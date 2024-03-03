@@ -13,7 +13,7 @@ def survey():
         email = request.form['email']
         message = request.form['message']
 
-        msg = Message(subject='Survey Response', sender='peter@mailtrap.io', recipients=['brianfarrell800@gmail.com'])
+        msg = Message(subject='Survey Response', sender=email, recipients=['brianfarrell800@gmail.com'])
         msg.body = f"Name: {name}\nEmail: {email}\nMessage: {message}"
         mail.send(msg)
         return redirect(url_for('index'))
