@@ -3761,7 +3761,8 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #36CED2;
+				opacity: .5;
 			}
 
 			#sidebar nav a:after {
