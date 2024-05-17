@@ -2522,7 +2522,7 @@ input, select, textarea {
 		.icon.major {
 			width: 2.5em;
 			height: 2.5em;
-			display: block;
+			display: flex;
 			background: #ffffff;
 			border-radius: 100%;
 			color: #312450;
