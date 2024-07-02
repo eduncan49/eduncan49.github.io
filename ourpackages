@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Our Team</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/Asset 4.png" type="image/png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title"></a>
+				<nav>
+					<ul>
+						          <li><a href="index.html">Home</a></li>
+						          <li><a href="ourstory.html">Our Story</a></li>
+                      <li> <a href="ourservices.html">Our Services</a></li>
+                      <li> <a href="ourpackages.html" class="active">Our Packages</a></li>
+                      <li> <a href="ourteam.html">Our Team</a></li>
+                      <li> <a href="faqs.html" >FAQS</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<section id="two" class="wrapper style2 fade-up">
+                    <div class="inner">
+                        <h2>Our Specialty Packages</h2>
+                        <br>
+                            <section>
+				    <p align="center">
+				    <img src="images/Liz-23.jpg" alt="" width=200em height=auto>
+				</p>
+                                <h3 align="center">Babybird Postpartum Home Visits</h3>
+				    <p>Three or six home visits by an experienced postpartum RN to review the many skills that are introduced in the hospital, but can feel overwhelming once you’re home and trying to perform them on your own.</p>
+            - Baby Bath
+            - Swaddling
+            - Breastfeeding Assistance
+            - Bottle feeding/ Pace feeding
+            - Nap breaks
+            - Daily schedule organization assistance
+            - Practical guidance and recommendations for trusted baby gear
+            - Provide resources for community services as needed
+            - Maternal emotional support
+
+
+                      
+			    </section>
+                            <section>
+				<p align="center">
+				    <img src="images/IMG_0643.JPG" alt="" width=200em height=auto>
+				</p>
+                                <h3 align="center">Kim Seibert, BSN, RN</h3>
+                                <details>
+					<summary><b>Learn More About Kim's Story</b></summary>
+				<p>Kimberly Seibert has been a Registered Nurse at Massachusetts General Hospital for more than 25 years. Kim graduated from Curry College with her BSN and a minor in Psychology. Her career has encompassed a variety of nursing roles including general medical/surgical nursing, perioperative areas, and as a clinical instructor for nursing students.</p> 
+				<p>Ten years ago, Kim faced one of the biggest challenges of her life when her father was diagnosed with cancer, quickly followed by her mother’s dementia diagnosis. Kim was able to manage both of these complex diagnoses by utilizing her expert assessment, communication, and patient advocacy skills in order to get her parents the care they needed and remain at home, as they wanted.</p>
+				<p>Kim has experienced first hand how goals of care can slowly evolve from pursuing an aggressive treatment plan into deciding to take it one day at a time, surrounded by loved ones, treating for comfort only. She knows every path chosen is a very personal decision that deserves unlimited support for the patient and their families.</p>
+				<p>Recognizing the advantage her professional experience provided her family and the increased efficiency of care it brought, Kim aims to share her navigation savvy with other families facing the same struggles. Kim is undeterred by difficult situations, and always works to find a solution that best meets the goals of the patient.</p>
+				<p>Kim lives with her husband, two daughters and their quirky yellow lab, Bruce. She loves all things related to the water, as she has found it renews her spirit and brings joy to her life. She can often be seen on long walks with Bruce, where there is usually more chatting and laughing with neighbors than actual exercise.</p>
+				</details>
+                            </section>
+                            <section>
+				    <p align="center">
+					     <img src="images/IMG_5575.jpeg" alt="" width=200em height=auto>
+                                <h3 align="center">Cheryl McGah, MS, BSN, RN, CAPA, CPAN</h3>
+				<details>
+					<summary><b>Learn More About Cheryl's Story</b></summary>
+				<p>Cheryl graduated from Somerville Hospital School of Nursing, earned her BSN from Regis College, and completed her MS at Lasell University. With a primary focus on surgical nursing, Cheryl possesses a deep understanding of the education, support, and resources patients need to maintain their health, improve, and recover at home.</p>
+				<p>Throughout her career, Cheryl has identified numerous barriers to patient care, including a lack of resources, gaps in understanding the healthcare system, and insufficient patient education. She acknowledges that the healthcare system requires improvement to better serve patients and is dedicated to enhancing patient outcomes through compassionate and comprehensive care. Cheryl's commitment to patient care is evident both professionally and personally.</p>
+				<p>Known for her readiness to assist, whether adjusting crutches for strangers or advising on health concerns, she consistently engages with individuals about their healthcare needs. Her forty-two-year career, including 18 years at Massachusetts General Hospital, reflects her dedication to patient care and comfort.</p>
+				<p>Outside of work, Cheryl enjoys spending time with her family, including her husband, two daughters, sons-in-law, and five grandchildren. She loves planning and hosting family events, holiday gatherings, and family trips to Maine and Clearwater Beach. Passionate about ancestry, she dreams of connecting with her ancestors from the early 1900s. Cheryl also finds joy in comedy and a good laugh, and she draws inspiration from the ocean and music, which bring harmony to her life.</p>
+				</details>
+                            </section>
+                    </div>
+                </section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<a style="color:#C6CED2" href="mailto:elizabeth@hummingbirdnurse.com">elizabeth@hummingbirdnurse.com</a>
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
